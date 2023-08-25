@@ -40,7 +40,7 @@ def on_message(client, userdata, msg):
             print(f"...Sending Turn on valve water...")
         else:
             dataControl["HumidityControl"]="OFF"
-            print(f"...Sending Turn off cooling system...")     
+            print(f"...Sending Turn off valve water...")     
             
         json_data = json.dumps(dataControl)
         
